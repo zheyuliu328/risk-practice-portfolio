@@ -1,5 +1,8 @@
 # Risk work-scenario casebook / 风险工作场景
 
+This is a detailed lookup index across specialist cases and laboratory exercises. Start at the [flagship](../flagship/forecast-review/README.md); do not treat all twelve topics as equally mature products.
+
+
 Date: 2026-09-15. Twelve core scenarios connect the portfolio to practical review tasks. **Implementation status is separate from personal mastery.** A learning calculation is a transparent simplification; a designed exercise is not yet a working module. None of these cases is represented as the author's client engagement.
 
 [Runnable cases and response plans](WORKED_CASES.zh-CN.md)
