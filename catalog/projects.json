@@ -3,7 +3,7 @@
     "repository": "forecast-review-workbench",
     "url": "https://github.com/zheyuliu328/forecast-review-workbench",
     "priority": "P0",
-    "portfolio_role": "Primary workbench",
+    "portfolio_role": "Primary workflow",
     "default_branch": "main",
     "verified_commit": "41dacd968cd9941be0c0c5b4170211f6757ba52c",
     "evidence_date": "2026-09-15",
@@ -15,13 +15,14 @@
       "O01"
     ],
     "capabilities": "Monthly OLS candidates, explicit holdout reveal, common-sample forecast review, layered financial reconciliation.",
-    "limits": "Local application; source-time declarations are supplied by callers; no completed independent human adoption study."
+    "limits": "Local application; source-time declarations are supplied by callers; no completed independent human adoption study.",
+    "portfolio_layer": "flagship"
   },
   {
     "repository": "model-risk-lab",
     "url": "https://github.com/zheyuliu328/model-risk-lab",
     "priority": "P0",
-    "portfolio_role": "Methods and independent challenges",
+    "portfolio_role": "Numerical foundation; FX also a specialist case",
     "default_branch": "main",
     "verified_commit": "8b002e3b29ff81966e463ccde66cc58578ecb09e",
     "evidence_date": "2026-09-15",
@@ -33,13 +34,14 @@
       "G01"
     ],
     "capabilities": "Causal credit experiments, monthly candidate screening, European FX prices and Greeks.",
-    "limits": "Not full IFRS 9, SIMM, market calibration or production validation."
+    "limits": "Not full IFRS 9, SIMM, market calibration or production validation.",
+    "portfolio_layer": "flagship"
   },
   {
     "repository": "financial-control-tower",
     "url": "https://github.com/zheyuliu328/financial-control-tower",
-    "priority": "P0",
-    "portfolio_role": "Immediate browser experience",
+    "priority": "P1",
+    "portfolio_role": "Independent data-control tool",
     "default_branch": "main",
     "verified_commit": "eecfc2f8f5d78c20f0ab983c02527cde28ed74e9",
     "evidence_date": "2026-09-15",
@@ -49,13 +51,14 @@
       "O01"
     ],
     "capabilities": "Browser-local CSV/Excel comparison, confirmed mappings, composite keys, numeric fields, currency/tolerance checks and readable exports.",
-    "limits": "No automatic FX conversion, aggregation or Excel formula calculation; 8 MiB/file and 20,000 potential field checks in published browser version. ZIP includes full selected files."
+    "limits": "No automatic FX conversion, aggregation or Excel formula calculation; 8 MiB/file and 20,000 potential field checks in published browser version. ZIP includes full selected files.",
+    "portfolio_layer": "specialist"
   },
   {
     "repository": "risk-var-dashboard",
     "url": "https://github.com/zheyuliu328/risk-var-dashboard",
     "priority": "P1",
-    "portfolio_role": "Market-risk specialist case",
+    "portfolio_role": "Market-risk case",
     "default_branch": "main",
     "verified_commit": "c3c3644fc4126324f60127a94cdae4cece535212",
     "evidence_date": "2026-09-15",
@@ -65,13 +68,14 @@
       "M01"
     ],
     "capabilities": "One-series normal/historical rolling VaR and Kupiec unconditional coverage with explicit time alignment.",
-    "limits": "No ES verification, exception-independence test, portfolio capital model or real investment-performance proof."
+    "limits": "No ES verification, exception-independence test, portfolio capital model or real investment-performance proof.",
+    "portfolio_layer": "specialist"
   },
   {
     "repository": "algorithmic-credit-risk-engine",
     "url": "https://github.com/zheyuliu328/algorithmic-credit-risk-engine",
-    "priority": "P1",
-    "portfolio_role": "Credit methods learning shelf",
+    "priority": "P2",
+    "portfolio_role": "Credit prototype study",
     "default_branch": "master",
     "verified_commit": "e1fc8a79705c08beaf4e39f30426971d52ceef90",
     "evidence_date": "2026-09-15",
@@ -82,13 +86,14 @@
       "G01"
     ],
     "capabilities": "Synthetic classification, scorecard components and metric utilities.",
-    "limits": "Supplied-model validate is unimplemented; legacy overrides, PSI tails, CAP/Gini and ECL integration have limitations."
+    "limits": "Supplied-model validate is unimplemented; legacy overrides, PSI tails, CAP/Gini and ECL integration have limitations.",
+    "portfolio_layer": "lab"
   },
   {
     "repository": "hstech-nlp-quant-factor",
     "url": "https://github.com/zheyuliu328/hstech-nlp-quant-factor",
     "priority": "P1",
-    "portfolio_role": "Quantitative research and negative results",
+    "portfolio_role": "Research case; historical results unreplicated",
     "default_branch": "main",
     "verified_commit": "85592376490464b07ff6b1437159c9f674c509f2",
     "evidence_date": "2026-09-15",
@@ -99,13 +104,14 @@
       "G01"
     ],
     "capabilities": "Sentiment-factor research, IC/Rank-IC, turnover and transaction-cost analysis.",
-    "limits": "Historical README reports are not freshly reproduced results; short sample, insignificant result and missing risk neutralisation remain limits."
+    "limits": "Historical README reports are not freshly reproduced results; short sample, insignificant result and missing risk neutralisation remain limits.",
+    "portfolio_layer": "specialist"
   },
   {
     "repository": "RMSC6007-GroupProject",
     "url": "https://github.com/zheyuliu328/RMSC6007-GroupProject",
     "priority": "P2",
-    "portfolio_role": "Team coursework reference",
+    "portfolio_role": "Team coursework",
     "default_branch": "main",
     "verified_commit": "e04659413e62eebf755a0707271a86ee350a88ff",
     "evidence_date": "2026-09-15",
@@ -116,13 +122,14 @@
       "M02"
     ],
     "capabilities": "Coursework on VaR/GARCH/Greeks and factor research.",
-    "limits": "Do not claim all work as sole-authored; incomplete reports and absent recognised license require caution before reuse; production-ready claims not independently verified."
+    "limits": "Do not claim all work as sole-authored; incomplete reports and absent recognised license require caution before reuse; production-ready claims not independently verified.",
+    "portfolio_layer": "reference"
   },
   {
     "repository": "signal-foundry",
     "url": "https://github.com/zheyuliu328/signal-foundry",
     "priority": "P2",
-    "portfolio_role": "Supporting evidence workflow",
+    "portfolio_role": "Supporting evidence utility",
     "default_branch": "main",
     "verified_commit": "6bded1d31665b8ded147ab229b249dbd2a69dbda",
     "evidence_date": "2026-09-15",
@@ -133,13 +140,14 @@
       "A01"
     ],
     "capabilities": "Structured public signals, evidence records, candidate matching and review windows.",
-    "limits": "Not risk measurement or autonomous fact verification; no authentication or built-in external polling."
+    "limits": "Not risk measurement or autonomous fact verification; no authentication or built-in external polling.",
+    "portfolio_layer": "reference"
   },
   {
     "repository": "resume-ai-builder",
     "url": "https://github.com/zheyuliu328/resume-ai-builder",
     "priority": "P2",
-    "portfolio_role": "Personal job-search support",
+    "portfolio_role": "Personal utility",
     "default_branch": "main",
     "verified_commit": "91466c9d9754de84207cf2af660b1786690cc61c",
     "evidence_date": "2026-09-15",
@@ -149,13 +157,14 @@
       "A01"
     ],
     "capabilities": "Resume variants and document workflows.",
-    "limits": "Not a risk model; claimed efficiency gains, API/privacy behaviour and license discrepancy require separate verification."
+    "limits": "Not a risk model; claimed efficiency gains, API/privacy behaviour and license discrepancy require separate verification.",
+    "portfolio_layer": "reference"
   },
   {
     "repository": "zheyuliu328",
     "url": "https://github.com/zheyuliu328/zheyuliu328",
-    "priority": "P0",
-    "portfolio_role": "Portfolio front door",
+    "priority": "P2",
+    "portfolio_role": "Navigation, not a risk product",
     "default_branch": "main",
     "verified_commit": "71f56406a511790f015181ce74c148172753074f",
     "evidence_date": "2026-09-15",
@@ -163,6 +172,7 @@
     "authorship": "Personal profile",
     "scenario_ids": [],
     "capabilities": "Routes readers to problems, evidence and learning cases.",
-    "limits": "A navigation page, not another risk tool."
+    "limits": "A navigation page, not another risk tool.",
+    "portfolio_layer": "reference"
   }
 ]

@@ -13,6 +13,11 @@ assert {r["repository"] for r in catalog} == expected
 assert len({r["repository"] for r in catalog}) == len(catalog)
 assert all(r["priority"] in {"P0", "P1", "P2"} for r in catalog)
 assert all(re.fullmatch(r"[0-9a-f]{40}", r["verified_commit"]) for r in catalog)
+assert all(r["portfolio_layer"] in {"flagship", "specialist", "lab", "reference"} for r in catalog)
+assert {r["repository"] for r in catalog if r["portfolio_layer"] == "flagship"} == {"forecast-review-workbench", "model-risk-lab"}
+assert all(r["priority"] == {"flagship": "P0", "specialist": "P1", "lab": "P2", "reference": "P2"}[r["portfolio_layer"]] for r in catalog)
+for page in ("ARCHITECTURE.md", "flagship/forecast-review/README.md", "flagship/forecast-review/REVIEW_MEMO.md", "specialist/README.md", "lab/README.md", "reference/README.md"):
+    assert (root / page).is_file()
 cases = (root / "scenarios/README.md").read_text()
 ids = set(re.findall(r"^## ([A-Z][0-9]{2}) ", cases, re.M))
 assert len(ids) == 12

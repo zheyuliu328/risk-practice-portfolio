@@ -1,0 +1,59 @@
+{
+  "source_commit": "41dacd968cd9941be0c0c5b4170211f6757ba52c",
+  "states": {
+    "intake_exit": 1,
+    "accepted_exit": 0,
+    "conflict_exit": 1,
+    "overwrite_exit": 2
+  },
+  "expected_months": 12,
+  "common_months": 7,
+  "excluded_months": [
+    "2024-04",
+    "2024-05",
+    "2024-10",
+    "2024-11",
+    "2024-12"
+  ],
+  "independent_raw_csv_metrics": {
+    "model-a": {
+      "metrics": {
+        "mae": "2",
+        "bias": "2",
+        "rmse": "2"
+      },
+      "available_metrics": {
+        "mae": "1.555555555555555555555555555555555555556",
+        "bias": "1.555555555555555555555555555555555555556",
+        "rmse": "1.763834207376393727001077169092840283807"
+      }
+    },
+    "model-b": {
+      "metrics": {
+        "mae": "1",
+        "bias": "1",
+        "rmse": "1"
+      },
+      "available_metrics": {
+        "mae": "4.3",
+        "bias": "4.3",
+        "rmse": "6.625707509390978239818881809923563360118"
+      }
+    },
+    "baseline": {
+      "metrics": {
+        "mae": "3",
+        "bias": "3",
+        "rmse": "3"
+      },
+      "available_metrics": {
+        "mae": "3",
+        "bias": "3",
+        "rmse": "3"
+      }
+    }
+  },
+  "preservation_and_hashes": "passed",
+  "human_adoption": "not assessed",
+  "meaning": "Automated replay of teaching fixtures; acceptance in the test is not a human review."
+}

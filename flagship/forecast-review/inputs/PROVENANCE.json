@@ -1,0 +1,14 @@
+{
+  "source_repository": "https://github.com/zheyuliu328/forecast-review-workbench",
+  "source_commit": "41dacd968cd9941be0c0c5b4170211f6757ba52c",
+  "source_path": "examples",
+  "origin": "Previously published independently invented fixture by the same author; no fitted model or business data. Reused with attribution, not a new independent benchmark.",
+  "license": "MIT",
+  "sha256": {
+    "actual.csv": "3e493b28c95259023467e07c068dbcf8e88997a87a1cce527bc422c6ac3621d1",
+    "candidate-a.csv": "3bd5b282a258f52764afeee575b11858045f32e7b8781dffb8b4ac566297d8c0",
+    "candidate-b.csv": "306d044515944e6db861783a30212e0749d4689a5436c7cc25687f708558247a",
+    "baseline.csv": "7e856173b1dbd5ab13a246d1415ac0076ae3ca7aea2d07180661da5e06d21f0e",
+    "request.json": "d338043e94f357d202baa4b04c2376c59d3f9782d0e0a97170578a6311796492"
+  }
+}

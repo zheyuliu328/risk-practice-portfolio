@@ -1,5 +1,12 @@
 # Verification scope
 
+## Portfolio architecture iteration — 2026-09-15
+
+[Flagship replay evidence](flagship-20260915.json): installed the pinned public Workbench commit in an isolated environment, ran the pending/accepted/conflicting-unit requests outside its checkout and independently recalculated raw-CSV MAE/RMSE/bias with Decimal. All exclusions remained visible; retrying each directory returned exit 2 without changing bytes. Export hashes matched, and CLI manual notes remained empty.
+
+The architecture checker enforces one flagship workflow with its numerical foundation, separate specialist/laboratory/reference placements and existing navigation targets. This iteration changes portfolio structure and adds a reproducible review case; it does not change the numerical engines or establish new GUI/human-adoption evidence. Fixture reuse is attributed and version-pinned.
+
+
 ## v0.2.0 — expanded executable cases
 
 Date: 2026-09-15. [Local evidence](v02-20260915.json). [Publication review and checks](https://github.com/zheyuliu328/risk-practice-portfolio/pull/1).

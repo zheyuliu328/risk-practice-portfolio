@@ -2,20 +2,22 @@
 
 Snapshot: 2026-09-15. Ten existing public non-fork repositories (nine projects and the profile), plus ten learning-reference forks. The new portfolio hub itself is not counted as another model. Metadata and published README inspection establish advertised scope, not fresh execution or user adoption.
 
-P0 = front-page evidence and coherent primary workflows; P1 = specialist depth or research; P2 = supporting/learning references. Priority is a portfolio recommendation, not a quality score or an authorship certificate.
+P0 = flagship workflow/foundation; P1 = specialist case/tool; P2 = laboratory or reference. These are presentation priorities, not quality scores or evidence of production maturity. Learning priority is separate below.
 
-| Project | Priority / role | Current contribution | Important boundary |
+[Architecture and promotion criteria](../ARCHITECTURE.md) define the layers. The hub itself is navigation plus teaching exercises, not another flagship model.
+
+| Repository | Layer / priority | Role in the portfolio | Boundary |
 | --- | --- | --- | --- |
-| [forecast-review-workbench](https://github.com/zheyuliu328/forecast-review-workbench) | P0 — Primary workbench | Monthly OLS candidates, explicit holdout reveal, common-sample forecast review, layered financial reconciliation. | Local application; source-time declarations are supplied by callers; no completed independent human adoption study. |
-| [model-risk-lab](https://github.com/zheyuliu328/model-risk-lab) | P0 — Methods and independent challenges | Causal credit experiments, monthly candidate screening, European FX prices and Greeks. | Not full IFRS 9, SIMM, market calibration or production validation. |
-| [financial-control-tower](https://github.com/zheyuliu328/financial-control-tower) | P0 — Immediate browser experience | Browser-local CSV/Excel comparison, confirmed mappings, composite keys, numeric fields, currency/tolerance checks and readable exports. | No automatic FX conversion, aggregation or Excel formula calculation; 8 MiB/file and 20,000 potential field checks in published browser version. ZIP includes full selected files. |
-| [risk-var-dashboard](https://github.com/zheyuliu328/risk-var-dashboard) | P1 — Market-risk specialist case | One-series normal/historical rolling VaR and Kupiec unconditional coverage with explicit time alignment. | No ES verification, exception-independence test, portfolio capital model or real investment-performance proof. |
-| [algorithmic-credit-risk-engine](https://github.com/zheyuliu328/algorithmic-credit-risk-engine) | P1 — Credit methods learning shelf | Synthetic classification, scorecard components and metric utilities. | Supplied-model validate is unimplemented; legacy overrides, PSI tails, CAP/Gini and ECL integration have limitations. |
-| [hstech-nlp-quant-factor](https://github.com/zheyuliu328/hstech-nlp-quant-factor) | P1 — Quantitative research and negative results | Sentiment-factor research, IC/Rank-IC, turnover and transaction-cost analysis. | Historical README reports are not freshly reproduced results; short sample, insignificant result and missing risk neutralisation remain limits. |
-| [RMSC6007-GroupProject](https://github.com/zheyuliu328/RMSC6007-GroupProject) | P2 — Team coursework reference | Coursework on VaR/GARCH/Greeks and factor research. | Do not claim all work as sole-authored; incomplete reports and absent recognised license require caution before reuse; production-ready claims not independently verified. |
-| [signal-foundry](https://github.com/zheyuliu328/signal-foundry) | P2 — Supporting evidence workflow | Structured public signals, evidence records, candidate matching and review windows. | Not risk measurement or autonomous fact verification; no authentication or built-in external polling. |
-| [resume-ai-builder](https://github.com/zheyuliu328/resume-ai-builder) | P2 — Personal job-search support | Resume variants and document workflows. | Not a risk model; claimed efficiency gains, API/privacy behaviour and license discrepancy require separate verification. |
-| [zheyuliu328](https://github.com/zheyuliu328/zheyuliu328) | P0 — Portfolio front door | Routes readers to problems, evidence and learning cases. | A navigation page, not another risk tool. |
+| [forecast-review-workbench](https://github.com/zheyuliu328/forecast-review-workbench) | flagship / P0 | Primary workflow | Local application; source-time declarations are supplied by callers; no completed independent human adoption study. |
+| [model-risk-lab](https://github.com/zheyuliu328/model-risk-lab) | flagship / P0 | Numerical foundation; FX also a specialist case | Not full IFRS 9, SIMM, market calibration or production validation. |
+| [financial-control-tower](https://github.com/zheyuliu328/financial-control-tower) | specialist / P1 | Independent data-control tool | No automatic FX conversion, aggregation or Excel formula calculation; 8 MiB/file and 20,000 potential field checks in published browser version. ZIP includes full selected files. |
+| [risk-var-dashboard](https://github.com/zheyuliu328/risk-var-dashboard) | specialist / P1 | Market-risk case | No ES verification, exception-independence test, portfolio capital model or real investment-performance proof. |
+| [algorithmic-credit-risk-engine](https://github.com/zheyuliu328/algorithmic-credit-risk-engine) | lab / P2 | Credit prototype study | Supplied-model validate is unimplemented; legacy overrides, PSI tails, CAP/Gini and ECL integration have limitations. |
+| [hstech-nlp-quant-factor](https://github.com/zheyuliu328/hstech-nlp-quant-factor) | specialist / P1 | Research case; historical results unreplicated | Historical README reports are not freshly reproduced results; short sample, insignificant result and missing risk neutralisation remain limits. |
+| [RMSC6007-GroupProject](https://github.com/zheyuliu328/RMSC6007-GroupProject) | reference / P2 | Team coursework | Do not claim all work as sole-authored; incomplete reports and absent recognised license require caution before reuse; production-ready claims not independently verified. |
+| [signal-foundry](https://github.com/zheyuliu328/signal-foundry) | reference / P2 | Supporting evidence utility | Not risk measurement or autonomous fact verification; no authentication or built-in external polling. |
+| [resume-ai-builder](https://github.com/zheyuliu328/resume-ai-builder) | reference / P2 | Personal utility | Not a risk model; claimed efficiency gains, API/privacy behaviour and license discrepancy require separate verification. |
+| [zheyuliu328](https://github.com/zheyuliu328/zheyuliu328) | reference / P2 | Navigation, not a risk product | A navigation page, not another risk tool. |
 
 ## Authorship and inspection record
 
@@ -49,10 +51,10 @@ These repositories are external learning references, not original work claimed b
 
 ## Next investment decisions
 
-1. Make the three P0 workflows explain one complete review task with normal, failure and escalation cases.
-2. Add depth where the scenario map shows a genuine missing capability, particularly exposure/credit/ALM assumptions and independent challenges.
-3. Reassess P1 projects by their distinctive evidence, not by model count. Keep unsupported historical claims out of the front page.
-4. Keep team work and personal productivity projects visible as supporting context without mixing them into sole-authored risk modelling.
+1. Strengthen the one flagship review task through observed first use and repeat-task evidence.
+2. Add one role-relevant specialist challenge at a time; avoid a second universal workbench.
+3. Promote a laboratory exercise only after it has a defined user, complete task, independent checks and credible failure/action handling.
+4. Keep references and historical studies available, with unchanged attribution and explicit evidence dates.
 
 [Machine-readable catalog](projects.json) · [Public repository snapshot](public-repositories.json) · [Portfolio](../README.md)
 

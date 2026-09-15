@@ -29,3 +29,7 @@ Objective: package the existing open-source projects into a coherent portfolio o
 ## Continuing development, separate from this package delivery
 
 Use actual reviewer feedback and the user's completed exercises to select deeper implementations. Full bank IRRBB, policy-specific SICR, joint wrong-way risk, production monitoring, source-system integration and the eight specialist areas remain explicit development/learning gaps. The package provides a route to discover and address these gaps; it does not claim to eliminate every possible unfamiliar risk topic or replace work experience.
+
+## Follow-up architecture revision — 2026-09-15
+
+The user's correction rejects a flat aggregation of all projects. Delivered hierarchy: one flagship review workflow and its foundation; role-specific specialist cases; a separate learning laboratory; attributed references/history. README, catalog machine data and prose, scenario/learning entry points and profile navigation must agree. The flagship includes a decision, input contract, pending/accepted/conflict execution, an independent raw-data check, findings and action memo. There is no new universal risk engine or implied automatic inter-repository pipeline. Existing numerical code and release artifacts remain intact. Personal learning and adoption remain unassessed.

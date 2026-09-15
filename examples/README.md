@@ -1,5 +1,8 @@
 # Independently invented examples
 
+These requests belong to the [learning laboratory](../lab/README.md), not separate flagship products.
+
+
 Every amount, probability, cash flow and exposure in this directory was chosen for this educational repository. Values are not transformed, anonymized or resampled employer/client observations. Currency is an abstract single currency unit; rates and probabilities are decimal ratios.
 
 | Request | Decision question | Independent expectation | Boundary |
