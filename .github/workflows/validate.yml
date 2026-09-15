@@ -19,7 +19,7 @@ jobs:
       - name: Run the installed entry point outside the checkout
         working-directory: ${{ runner.temp }}
         run: |
-          risk-practice --input "$GITHUB_WORKSPACE/examples/ecl.json" --output "$RUNNER_TEMP/ecl-result"
-          risk-practice --input "$GITHUB_WORKSPACE/examples/liquidity.json" --output "$RUNNER_TEMP/liquidity-result"
-          risk-practice --input "$GITHUB_WORKSPACE/examples/rates.json" --output "$RUNNER_TEMP/rates-result"
-          risk-practice --input "$GITHUB_WORKSPACE/examples/concentration.json" --output "$RUNNER_TEMP/concentration-result"
+          for request in "$GITHUB_WORKSPACE"/examples/*.json; do
+            name=$(basename "$request" .json)
+            risk-practice --input "$request" --output "$RUNNER_TEMP/$name-result"
+          done

@@ -1,0 +1,21 @@
+{
+  "model": "ecl-movement",
+  "inputs": {
+    "opening": {
+      "report_date": "2026-01-01", "entity_id": "invented-facility-01", "currency": "HKD",
+      "effective_annual_rate": 0.05, "default_window_years": 1, "sicr_flag": false,
+      "scenarios": [
+        {"name": "base", "weight": 0.75, "conditional_pds": [0.02, 0.03, 0.04], "lgds": [0.4, 0.4, 0.4], "eads": [100000, 80000, 60000]},
+        {"name": "stress", "weight": 0.25, "conditional_pds": [0.04, 0.06, 0.08], "lgds": [0.5, 0.5, 0.5], "eads": [100000, 80000, 60000]}
+      ]
+    },
+    "closing": {
+      "report_date": "2026-04-01", "entity_id": "invented-facility-01", "currency": "HKD",
+      "effective_annual_rate": 0.05, "default_window_years": 3, "sicr_flag": true,
+      "scenarios": [
+        {"name": "base", "weight": 0.6, "conditional_pds": [0.03, 0.04, 0.05], "lgds": [0.45, 0.45, 0.45], "eads": [90000, 70000, 50000]},
+        {"name": "stress", "weight": 0.4, "conditional_pds": [0.06, 0.08, 0.1], "lgds": [0.55, 0.55, 0.55], "eads": [90000, 70000, 50000]}
+      ]
+    }
+  }
+}

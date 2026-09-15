@@ -1,0 +1,11 @@
+{
+  "model": "ai-release-review",
+  "inputs": {
+    "absolute_tolerance": 0.01,
+    "records": [
+      {"id": "numerical-control", "expected_value": 100, "reported_value": 100, "required_sources": ["invented-ledger"], "cited_sources": ["invented-ledger"], "semantic_supported": true, "allowed_actions": ["draft"], "requested_actions": ["draft"]},
+      {"id": "unsupported-action", "expected_value": 100, "reported_value": 90, "required_sources": ["invented-ledger"], "cited_sources": ["unrelated-page"], "semantic_supported": false, "allowed_actions": ["draft"], "requested_actions": ["execute-trade"]},
+      {"id": "unassessed-support", "expected_value": 100, "reported_value": 100, "required_sources": ["invented-ledger"], "cited_sources": ["invented-ledger"], "semantic_supported": null, "allowed_actions": [], "requested_actions": []}
+    ]
+  }
+}

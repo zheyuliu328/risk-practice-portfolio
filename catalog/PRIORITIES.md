@@ -55,3 +55,16 @@ These repositories are external learning references, not original work claimed b
 4. Keep team work and personal productivity projects visible as supporting context without mixing them into sole-authored risk modelling.
 
 [Machine-readable catalog](projects.json) · [Public repository snapshot](public-repositories.json) · [Portfolio](../README.md)
+
+## Learning priorities are separate from showcase priorities
+
+| Learning order | What to learn | Why now | Observable completion |
+| --- | --- | --- | --- |
+| L0 | Workbench + Model Risk Lab: data timing, baseline, independent challenge, review memo | Builds on the model-validation direction without claiming unfamiliar client work | Explain a rejected candidate and reproduce the independent challenge |
+| L0 | FCT: key, grain, completeness and exceptions | Every risk conclusion depends on trustworthy input | Detect offsetting errors despite matching totals and produce a handoff |
+| L1 | Hub credit/ECL and ALM examples | Fill parameter, movement and behavioural-assumption gaps | Recalculate a bridge; distinguish NII from EVE under changed assumptions |
+| L1 | VaR project + hub ES/CCR/margin | Connect market measurement to limits, collateral and cash | Explain why tail loss, required call and funding gap differ |
+| L2 | Credit engine and NLP research | Study estimator limitations and negative findings | Challenge calibration or research leakage without quoting unverified performance |
+| L2 | Governance/AML/AI cases and specialist routes | Broaden unfamiliar roles after core reasoning is demonstrable | Resolve an unseen case with evidence needs and escalation owners |
+| Reference | Team coursework and ten forks | Learn selected methods with attribution | Identify original source and distinguish reused material from own contribution |
+| Supporting | Signal Foundry, resume tools and profile | Communicate evidence and job relevance | Publish accurate summaries without invented metrics or experience |

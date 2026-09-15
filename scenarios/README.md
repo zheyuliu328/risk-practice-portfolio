@@ -2,22 +2,24 @@
 
 Date: 2026-09-15. Twelve core scenarios connect the portfolio to practical review tasks. **Implementation status is separate from personal mastery.** A learning calculation is a transparent simplification; a designed exercise is not yet a working module. None of these cases is represented as the author's client engagement.
 
+[Runnable cases and response plans](WORKED_CASES.zh-CN.md)
+
 ## Coverage map
 
 | ID | Work question | Current executable support | Remaining implementation |
 | --- | --- | --- | --- |
-| [C01](#c01-credit-parameters) | Ranking is good; why is loss prediction low? | CreditOne synthetic classifier and metric components | Complete PD calibration, recovery LGD and commitment EAD workflow |
-| [C02](#c02-ecl-and-model-selection) | Why did provisions rise despite better macro forecasts? | Workbench monthly OLS; this hub's simplified ECL and scenario-weighting functions | Stage/SICR, recovery schedules and ECL movement attribution |
-| [M01](#m01-market-risk) | VaR is within limits; why is stress loss unacceptable? | Existing causal VaR and coverage tool | ES, exception clustering and portfolio stress workflow |
+| [C01](#c01-credit-parameters) | Ranking is good; why is loss prediction low? | PD calibration/discrimination, provisional recovery LGD and commitment EAD examples | Population estimation, downturn calibration and independent approvals |
+| [C02](#c02-ecl-and-model-selection) | Why did provisions rise despite better macro forecasts? | Workbench monthly OLS; ECL, recovery and ordered movement bridge | Policy-specific SICR assignment and full accounting cash-flow treatment |
+| [M01](#m01-market-risk) | VaR is within limits; why is stress loss unacceptable? | Existing causal VaR tool; empirical ES and named stress examples | Exception clustering and portfolio-specific repricing |
 | [M02](#m02-valuation-and-greeks) | Prices agree; why do hedge sensitivities disagree? | Model Risk Lab pricing/Greeks/independent challenges | Smile/path-dependent products; no proprietary SIMM implementation |
-| [C03](#c03-counterparty-risk) | Why does collateral not eliminate exposure? | Execution design below | Exposure paths, margin lag and WWR sensitivity module |
-| [B01](#b01-broker-margin-and-concentration) | Why stop new finance when collateral looks adequate? | This hub's concentration calculation | Margin-call, haircut and liquidation timing engine |
+| [C03](#c03-counterparty-risk) | Why does collateral not eliminate exposure? | Time-aligned exposure/collateral paths, EE/PFE and independent CVA | Full CSA mechanics and joint exposure/default WWR |
+| [B01](#b01-broker-margin-and-concentration) | Why stop new finance when collateral looks adequate? | Issuer concentration, haircut, required call and available liquidation cash | Actual order execution, changing loan terms and dynamic liquidation |
 | [L01](#l01-liquidity) | Assets exceed liabilities; why might tomorrow's payments fail? | This hub's daily cash-flow survival calculation | Entity/currency restrictions and policy-specific stress schedules |
-| [L02](#l02-interest-rate-and-nmd) | NII improves; why can economic value fall? | This hub's fixed-cash-flow PV shock | NMD/option behaviour and full asset/liability EVE/NII |
-| [G01](#g01-model-governance) | Drift increased; retrain, restrict or stop? | Workbench evidence and opinions; existing metric components | Versioned monitoring and decision-policy workflow |
+| [L02](#l02-interest-rate-and-nmd) | NII improves; why can economic value fall? | Fixed cash-flow shock and NMD beta/runoff EVE/NII exercise | Behavioural estimation, options and full bank IRRBB |
+| [G01](#g01-model-governance) | Drift increased; retrain, restrict or stop? | Workbench review evidence; PSI, supplied-loss monitoring and human-review signals | Production monitoring, approved policy and mature-label verification |
 | [O01](#o01-data-and-operational-controls) | Totals agree; why is the report still unsafe to deliver? | FCT browser/local comparison; Workbench layered reconciliation | Independent human adoption and source-system integration |
-| [F01](#f01-fraud-and-aml) | Alerts exceed investigation capacity; what should change? | Execution design below | Label-aware alert prioritisation and capacity exercise |
-| [A01](#a01-ai-model-governance) | AI's risk report looks convincing; can it be released? | Execution design below | Evidence-grounded benchmark and release-control exercise |
+| [F01](#f01-fraud-and-aml) | Alerts exceed investigation capacity; what should change? | Label-aware priority, capacity, backlog and known-label cost exercise | Bias-adjusted outcome estimation and production investigation integration |
+| [A01](#a01-ai-model-governance) | AI's risk report looks convincing; can it be released? | Numeric, required-source, supplied semantic and action-allowlist checks | Independent semantic benchmark and live AI/security integration |
 
 ## Common execution and handoff contract
 
@@ -85,7 +87,7 @@ The handoff contains the request and input fingerprints, reconciled population c
 
 ## C03 Counterparty risk
 
-**委托与岗位：** 衍生品或prime服务风险人员解释“每天有VM，为什么还有敞口”。本场景目前是执行设计，数值路径模块待实现。
+**委托与岗位：** 衍生品或prime服务风险人员解释“每天有VM，为什么还有敞口”。本仓已提供显式路径、可用抵押、EE/PFE及独立CVA计算；完整CSA和WWR模型仍不在实现范围。
 
 **输入与方法：** 法律净额集合、合约MTM路径、抵押币种/折扣、门槛、最小转移额、追保延迟、保证金风险期和信用情景。先计算各集合正敞口，再求EE/PFE；简化独立CVA可用折现EE乘边际违约概率与LGD，但必须另做相关性/WWR挑战。
 
@@ -169,7 +171,7 @@ The handoff contains the request and input fingerprints, reconciled population c
 
 ## F01 Fraud and AML
 
-**委托与岗位：** 欺诈或AML团队面对超出调查容量的告警。本场景目前是执行设计，不是已验证的检测模型。
+**委托与岗位：** 欺诈或AML团队面对超出调查容量的告警。本仓已提供标签感知的告警队列、容量和已知标签成本练习；它不是已验证的犯罪检测模型。
 
 **输入与方法：** 新造交易、客群和时间、示例速度/金额/新受益人规则、人工判定标签及来源、调查容量和反馈时滞。先区分即时欺诈拦截和AML调查目标，不能把两者标签混在一起。
 
@@ -183,7 +185,7 @@ The handoff contains the request and input fingerprints, reconciled population c
 
 ## A01 AI model governance
 
-**委托与岗位：** 银行/券商风险或治理人员决定AI生成报告能否进入正式流程。当前是防御性执行设计，测试工具待实现。
+**委托与岗位：** 银行/券商风险或治理人员决定AI生成报告能否进入正式流程。本仓已提供数值、来源、人工语义声明及动作权限的显式检查；自动语义验证和真实AI集成仍待专项实现。
 
 **输入与方法：** 新造问题、正确证据与计算、允许的工具动作、模型/提示/数据版本、使用重大性。分别检查算术、引用支持、拒答、改写稳定性和权限边界。引用存在不代表它支持结论。
 

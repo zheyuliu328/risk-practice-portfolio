@@ -34,3 +34,6 @@
 每项0—2分：问题与口径、数据与时点、方法与基线、独立验证、可执行响应、局限与升级。12分只是自测量表，不是招聘通过标准。达到某分数后仍需换一个未见过的案例复测，不能背同一答案。
 
 复制 [progress.template.json](progress.template.json) 为被Git忽略的 `progress.local.json`，只在亲自完成练习后填写证据路径与日期。课程不是完整职业经历的替代品。
+
+
+[陌生场景题、推理答案与专门领域补齐](CASE_INTERVIEWS.zh-CN.md) · [可执行案例与行动交付](../scenarios/WORKED_CASES.zh-CN.md)

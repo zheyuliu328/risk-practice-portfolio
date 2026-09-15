@@ -1,0 +1,14 @@
+{
+  "date": "2026-09-15",
+  "version": "0.2.0",
+  "local_python": "3.12.12",
+  "installed_package_tests_passed": 74,
+  "installed_examples_passed": 16,
+  "output_preservation_and_manifest": "passed for all 16 examples",
+  "independent_checks": {
+    "credit_and_alm": "Decimal bridge, mature-label case and 300 seeded ALM scenarios passed",
+    "controls": "1458 capacity combinations, 25 PSI references, 36 AI controls and 9 invalid numeric cases passed",
+    "market": "hand references and 4950 empirical CDF boundary combinations passed"
+  },
+  "scope": "Invented educational inputs and declared simplifications. No full regulatory approval, external adoption or personal mastery is established. Older independent repositories are catalogued, not all rerun."
+}

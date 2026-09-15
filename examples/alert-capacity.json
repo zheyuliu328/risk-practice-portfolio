@@ -1,0 +1,16 @@
+{
+  "model": "alert-capacity",
+  "inputs": {
+    "records": [
+      {"id": "A01", "score": 0.95, "label": false},
+      {"id": "A02", "score": 0.9, "label": null},
+      {"id": "A03", "score": 0.8, "label": true},
+      {"id": "A04", "score": 0.7, "label": true},
+      {"id": "A05", "score": 0.2, "label": false}
+    ],
+    "capacity": 2,
+    "score_threshold": 0.5,
+    "false_positive_cost": 1,
+    "false_negative_cost": 10
+  }
+}

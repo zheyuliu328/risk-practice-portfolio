@@ -16,6 +16,11 @@ from .models import (
     weighted_scenario_ecl,
 )
 
+from .credit import credit_parameter_review, recovery_lgd, ead_from_utilization, ecl_movement
+from .market import historical_var_es, counterparty_exposure, broker_margin
+from .alm import alm_nmd
+from .controls import model_monitoring, alert_capacity_review, ai_release_review
+
 MODEL_NOTES = {
     "ecl": ["Annual conditional PDs become marginal PDs using survival.", "LGD represents lifetime loss conditional on default, placed at default-year end in this simplification.", "A one-year default window is not twelve-month cash-shortfall truncation. No stage assignment or complete IFRS 9 calculation."],
     "weighted-ecl": ["Scenario amounts must already share currency, horizon, valuation date and methodology.", "This calculator checks weights, not scenario validity or accounting approval."],
@@ -48,6 +53,17 @@ def calculate(model, inputs):
         "rates": fixed_cashflow_rate_shock,
         "concentration": exposure_concentration,
     }
+    functions["credit-parameters"] = credit_parameter_review
+    functions["recovery-lgd"] = recovery_lgd
+    functions["ead-utilization"] = ead_from_utilization
+    functions["ecl-movement"] = ecl_movement
+    functions["historical-var-es"] = historical_var_es
+    functions["counterparty"] = counterparty_exposure
+    functions["broker-margin"] = broker_margin
+    functions["alm-nmd"] = alm_nmd
+    functions["model-monitoring"] = model_monitoring
+    functions["alert-capacity"] = alert_capacity_review
+    functions["ai-release-review"] = ai_release_review
     if model not in functions:
         raise ValueError("unknown learning model")
     return functions[model](**inputs)
@@ -79,7 +95,7 @@ def run_request(request_path, output):
         "input_sha256": hashlib.sha256(raw).hexdigest(),
         "input_provenance": "caller-supplied; origin and business suitability are unverified",
         "interpretation": "learning calculation, not regulatory or model approval",
-        "assumptions_and_limits": MODEL_NOTES[request["model"]],
+        "assumptions_and_limits": MODEL_NOTES.get(request["model"], ["Read the method-specific assumptions, limits and human actions in Results.", "Supplied labels, scenarios, legal permissions and thresholds require independent review."]),
         "request": request,
         "result": result,
     }

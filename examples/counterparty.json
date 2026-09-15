@@ -1,0 +1,1 @@
+{"model":"counterparty","inputs":{"mtm_paths":[[10,20],[-5,40]],"collateral_available":[[0,10],[0,10]],"discount_factors":[1,0.9],"conditional_pds":[0.1,0.2],"lgd":0.5,"legal_netting_set":"INVENTED-SINGLE-SET","confidence":0.75}}

@@ -1,0 +1,13 @@
+{
+  "model": "credit-parameters",
+  "inputs": {
+    "observation_horizon_months": 12,
+    "records": [
+      {"id": "invented-001", "predicted_pd": 0.8, "defaulted": true, "label_mature": true, "exposure": 100, "group": "segment-A"},
+      {"id": "invented-002", "predicted_pd": 0.2, "defaulted": false, "label_mature": true, "exposure": 200, "group": "segment-A"},
+      {"id": "invented-003", "predicted_pd": 0.5, "defaulted": true, "label_mature": true, "exposure": 100, "group": "segment-B"},
+      {"id": "invented-004", "predicted_pd": 0.5, "defaulted": false, "label_mature": true, "exposure": 100, "group": "segment-B"},
+      {"id": "invented-005", "predicted_pd": 0.3, "defaulted": null, "label_mature": false, "exposure": 150, "group": "segment-B"}
+    ]
+  }
+}
