@@ -24,7 +24,7 @@ Objective: package the existing open-source projects into a coherent portfolio o
 | Independent numerical evidence | 74 tests, 16 outside-checkout requests; Decimal/Fraction and independent scenario checks | Simplified methods, not regulatory validation |
 | Learning/interview route | Five role routes, 12 unfamiliar cases with reasoning/rubrics, eight specialist gap routes | User mastery starts unassessed; specialist routes are not implemented engines |
 | Preservation and scope | Exclusive outputs and hash checks; no private source or old repo business files changed | No external adoption or exhaustive financial-risk coverage claimed |
-| Publication | First release and profile entry published; v0.2.0 requires remote CI/content verification | Record final publication in validation evidence |
+| Publication | First release and profile entry published; expanded workflows reviewed in [PR #1](https://github.com/zheyuliu328/risk-practice-portfolio/pull/1) | PR and main CI provide publication status; exact local/remote verification retained separately |
 
 ## Continuing development, separate from this package delivery
 

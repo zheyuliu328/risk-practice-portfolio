@@ -87,7 +87,7 @@ The handoff contains the request and input fingerprints, reconciled population c
 
 ## C03 Counterparty risk
 
-**委托与岗位：** 衍生品或prime服务风险人员解释“每天有VM，为什么还有敞口”。本场景目前是执行设计，数值路径模块待实现。
+**委托与岗位：** 衍生品或prime服务风险人员解释“每天有VM，为什么还有敞口”。本仓已提供显式路径、可用抵押、EE/PFE及独立CVA计算；完整CSA和WWR模型仍不在实现范围。
 
 **输入与方法：** 法律净额集合、合约MTM路径、抵押币种/折扣、门槛、最小转移额、追保延迟、保证金风险期和信用情景。先计算各集合正敞口，再求EE/PFE；简化独立CVA可用折现EE乘边际违约概率与LGD，但必须另做相关性/WWR挑战。
 
@@ -171,7 +171,7 @@ The handoff contains the request and input fingerprints, reconciled population c
 
 ## F01 Fraud and AML
 
-**委托与岗位：** 欺诈或AML团队面对超出调查容量的告警。本场景目前是执行设计，不是已验证的检测模型。
+**委托与岗位：** 欺诈或AML团队面对超出调查容量的告警。本仓已提供标签感知的告警队列、容量和已知标签成本练习；它不是已验证的犯罪检测模型。
 
 **输入与方法：** 新造交易、客群和时间、示例速度/金额/新受益人规则、人工判定标签及来源、调查容量和反馈时滞。先区分即时欺诈拦截和AML调查目标，不能把两者标签混在一起。
 
@@ -185,7 +185,7 @@ The handoff contains the request and input fingerprints, reconciled population c
 
 ## A01 AI model governance
 
-**委托与岗位：** 银行/券商风险或治理人员决定AI生成报告能否进入正式流程。当前是防御性执行设计，测试工具待实现。
+**委托与岗位：** 银行/券商风险或治理人员决定AI生成报告能否进入正式流程。本仓已提供数值、来源、人工语义声明及动作权限的显式检查；自动语义验证和真实AI集成仍待专项实现。
 
 **输入与方法：** 新造问题、正确证据与计算、允许的工具动作、模型/提示/数据版本、使用重大性。分别检查算术、引用支持、拒答、改写稳定性和权限边界。引用存在不代表它支持结论。
 

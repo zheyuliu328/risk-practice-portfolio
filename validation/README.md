@@ -2,7 +2,7 @@
 
 ## v0.2.0 — expanded executable cases
 
-Date: 2026-09-15. [Local evidence](v02-20260915.json).
+Date: 2026-09-15. [Local evidence](v02-20260915.json). [Publication review and checks](https://github.com/zheyuliu328/risk-practice-portfolio/pull/1).
 
 - 74 tests passed against the normally installed Python 3.12.12 package; all 16 shipped requests ran outside the checkout.
 - Each request retained its input bytes, finite JSON, offline HTML and complete checksum manifest. Repeated output paths failed without changing the prior bundle.
