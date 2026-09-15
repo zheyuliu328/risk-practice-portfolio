@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=83.0.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "risk-practice-portfolio"
+version = "0.1.0"
+description = "A scenario-led risk portfolio, worked examples and interview learning companion"
+requires-python = ">=3.10"
+readme = "README.md"
+license = "MIT"
+dependencies = []
+
+[project.scripts]
+risk-practice = "risk_practice.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

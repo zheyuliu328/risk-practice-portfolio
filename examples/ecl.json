@@ -1,0 +1,10 @@
+{
+  "model": "ecl",
+  "inputs": {
+    "conditional_pds": [0.02, 0.03, 0.04],
+    "lgds": [0.4, 0.4, 0.4],
+    "eads": [1000000, 800000, 600000],
+    "effective_annual_rate": 0.05,
+    "default_window_years": 3
+  }
+}

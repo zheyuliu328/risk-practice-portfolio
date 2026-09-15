@@ -1,0 +1,159 @@
+{
+  "verified_at_utc": "2026-09-15T04:08:39.759237+00:00",
+  "python": "3.12.12",
+  "repository_tests_passed": 24,
+  "independent_review_cases": 805,
+  "independent_review_scope": "Pre-fix ordinary rational/integer numerical grid; identified underflow corrected and separately rechecked. No claim of universal inputs.",
+  "fixed_findings": [
+    "ECL intermediate multiplication underflow",
+    "per-model limitations missing from offline report"
+  ],
+  "installed_outside_checkout": [
+    {
+      "example": "ecl",
+      "normal_installed_cli": "pass",
+      "output_preserved_on_repeat": true,
+      "manifest_checked": true,
+      "independent_example_oracle": "pass",
+      "result": {
+        "ecl": 24035.555555555555,
+        "default_window_years": 3,
+        "supplied_horizon_years": 3,
+        "cumulative_default_probability": 0.087424,
+        "survival_at_window_end": 0.9125759999999999,
+        "annual_results": [
+          {
+            "year": 1,
+            "conditional_pd": 0.02,
+            "survival_before": 1.0,
+            "marginal_pd": 0.02,
+            "lgd": 0.4,
+            "ead": 1000000.0,
+            "discount_factor": 0.9523809523809523,
+            "discounted_loss": 7619.047619047618
+          },
+          {
+            "year": 2,
+            "conditional_pd": 0.03,
+            "survival_before": 0.98,
+            "marginal_pd": 0.0294,
+            "lgd": 0.4,
+            "ead": 800000.0,
+            "discount_factor": 0.9070294784580499,
+            "discounted_loss": 8533.333333333334
+          },
+          {
+            "year": 3,
+            "conditional_pd": 0.04,
+            "survival_before": 0.9506,
+            "marginal_pd": 0.038024,
+            "lgd": 0.4,
+            "ead": 600000.0,
+            "discount_factor": 0.863837598531476,
+            "discounted_loss": 7883.174603174604
+          }
+        ]
+      }
+    },
+    {
+      "example": "liquidity",
+      "normal_installed_cli": "pass",
+      "output_preserved_on_repeat": true,
+      "manifest_checked": true,
+      "independent_example_oracle": "pass",
+      "result": {
+        "first_negative_day": 4,
+        "ending_cash": -10.0,
+        "minimum_closing_cash": -10.0,
+        "daily_results": [
+          {
+            "day": 1,
+            "opening_cash": 100.0,
+            "inflow": 10.0,
+            "outflow": 40.0,
+            "realized_cash": 0.0,
+            "closing_cash": 70.0
+          },
+          {
+            "day": 2,
+            "opening_cash": 70.0,
+            "inflow": 10.0,
+            "outflow": 50.0,
+            "realized_cash": 0.0,
+            "closing_cash": 30.0
+          },
+          {
+            "day": 3,
+            "opening_cash": 30.0,
+            "inflow": 5.0,
+            "outflow": 40.0,
+            "realized_cash": 20.0,
+            "closing_cash": 15.0
+          },
+          {
+            "day": 4,
+            "opening_cash": 15.0,
+            "inflow": 5.0,
+            "outflow": 30.0,
+            "realized_cash": 0.0,
+            "closing_cash": -10.0
+          }
+        ]
+      }
+    },
+    {
+      "example": "rates",
+      "normal_installed_cli": "pass",
+      "output_preserved_on_repeat": true,
+      "manifest_checked": true,
+      "independent_example_oracle": "pass",
+      "result": {
+        "base_annual_rate": 0.05,
+        "shocked_annual_rate": 0.07,
+        "base_pv": 100.0,
+        "shocked_pv": 94.75136791116721,
+        "delta_pv": -5.248632088832792,
+        "cashflow_results": [
+          {
+            "year": 1,
+            "cashflow": 5.0,
+            "base_pv": 4.761904761904762,
+            "shocked_pv": 4.672897196261682
+          },
+          {
+            "year": 2,
+            "cashflow": 5.0,
+            "base_pv": 4.535147392290249,
+            "shocked_pv": 4.367193641366058
+          },
+          {
+            "year": 3,
+            "cashflow": 105.0,
+            "base_pv": 90.70294784580499,
+            "shocked_pv": 85.71127707353946
+          }
+        ]
+      }
+    },
+    {
+      "example": "concentration",
+      "normal_installed_cli": "pass",
+      "output_preserved_on_repeat": true,
+      "manifest_checked": true,
+      "independent_example_oracle": "pass",
+      "result": {
+        "total_exposure": 100.0,
+        "shares": [
+          0.7,
+          0.1,
+          0.1,
+          0.1
+        ],
+        "hhi": 0.5199999999999999,
+        "top_share": 0.7,
+        "effective_count": 1.9230769230769234
+      }
+    }
+  ],
+  "remaining": "Scenario catalog and examples do not establish all scenario implementations, user mastery or business adoption."
+}

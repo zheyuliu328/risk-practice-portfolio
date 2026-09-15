@@ -1,0 +1,9 @@
+{
+  "model": "liquidity",
+  "inputs": {
+    "initial_cash": 100,
+    "daily_inflows": [10, 10, 5, 5],
+    "daily_outflows": [40, 50, 40, 30],
+    "daily_realizable_cash": [0, 0, 20, 0]
+  }
+}

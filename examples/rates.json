@@ -1,0 +1,9 @@
+{
+  "model": "rates",
+  "inputs": {
+    "cashflows": [5, 5, 105],
+    "years": [1, 2, 3],
+    "base_annual_rate": 0.05,
+    "parallel_shock": 0.02
+  }
+}

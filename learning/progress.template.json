@@ -1,0 +1,7 @@
+{
+  "schema_version": 1,
+  "meaning": "Private self-assessment; no skill or work experience is inferred from repository contents.",
+  "default_status": "unassessed",
+  "levels": ["unassessed", "explained", "reproduced", "challenged", "defended"],
+  "entries": []
+}

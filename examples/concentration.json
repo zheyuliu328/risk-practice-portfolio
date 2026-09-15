@@ -1,0 +1,6 @@
+{
+  "model": "concentration",
+  "inputs": {
+    "exposures": [70, 10, 10, 10]
+  }
+}
