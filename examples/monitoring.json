@@ -1,0 +1,9 @@
+{
+  "model": "model-monitoring",
+  "inputs": {
+    "reference_values": [1, 2, 3, 4, 5, 6, 7, 8],
+    "current_values": [1, 2, 3, 4, 20, 21, 22, 23],
+    "cutpoints": [4, 8],
+    "psi_review_threshold": 0.2
+  }
+}

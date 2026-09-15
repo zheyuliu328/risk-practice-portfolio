@@ -4,7 +4,7 @@
 
 A portfolio and learning companion by Zheyu Liu, focused on model risk, credit and market risk, and financial data controls. The existing projects remain independent repositories. This entry connects them to work that a risk analyst or reviewer needs to perform.
 
-**2026-09-15: first integrated release; broader delivery remains in progress.** The 20 pre-existing public repositories are inventoried, 12 scenario guides are mapped, and four new numerical learning examples run through a normally installed package. Local verification passed 24 tests, independent example oracles and output-preservation checks. [Verification scope](validation/README.md). A listed learning case is not a claim of professional experience, regulatory compliance or production readiness.
+**2026-09-15 · v0.2.0.** Twenty pre-existing public repositories are inventoried, with 12 core scenario guides and 16 executable requests spanning credit, market, counterparty, ALM and risk controls. [Worked cases and response plans](scenarios/WORKED_CASES.zh-CN.md) connect results to decisions and escalation. [Verification scope](validation/README.md). These independent studies do not establish personal mastery, regulatory compliance or production readiness.
 
 ## Explore the work
 

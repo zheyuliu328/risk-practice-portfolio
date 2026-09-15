@@ -1,0 +1,8 @@
+{
+  "model": "ead-utilization",
+  "inputs": {
+    "drawn": 60,
+    "undrawn": 40,
+    "ccf": 0.5
+  }
+}

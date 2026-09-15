@@ -12,3 +12,8 @@ Every amount, probability, cash flow and exposure in this directory was chosen f
 Twelve-month expected credit loss concerns lifetime losses associated with default events possible within the next twelve months. It does not mean cash shortfalls occurring only during those twelve months. In the simplified function, restricting the default window to one year is meaningful only under the stated conditional-LGD/loss-timing assumptions.
 
 For each exercise, write an expectation before changing inputs. Keep the original run, the changed request, the new run and an explanation of any surprising result. Select a response only after checking whether the changed assumption is operationally plausible.
+
+
+## Extended workflows
+
+All 16 JSON files are executable through the same entry point. See the [worked-case guide](../scenarios/WORKED_CASES.zh-CN.md) for expected results, adverse changes, owners and limits. Requests and reported results preserve explicit assumptions; no private data is bundled.

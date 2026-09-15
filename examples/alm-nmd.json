@@ -1,0 +1,17 @@
+{
+  "model": "alm-nmd",
+  "inputs": {
+    "asset_principal": 1000000,
+    "asset_coupon_rate": 0.05,
+    "asset_maturity_years": 5,
+    "deposit_principal": 900000,
+    "base_deposit_rate": 0.02,
+    "base_discount_rate": 0.04,
+    "rate_shock": 0.01,
+    "scenarios": [
+      {"name": "declared_base_behaviour", "core_fraction": 0.8, "core_runoff_weights": [0.1,0.1,0.2,0.3,0.3], "noncore_runoff_weights": [1], "deposit_beta": 0.3, "deposit_rate_floor": 0},
+      {"name": "higher_pass_through", "core_fraction": 0.8, "core_runoff_weights": [0.1,0.1,0.2,0.3,0.3], "noncore_runoff_weights": [1], "deposit_beta": 0.8, "deposit_rate_floor": 0},
+      {"name": "faster_runoff", "core_fraction": 0.8, "core_runoff_weights": [0.5,0.3,0.2], "noncore_runoff_weights": [1], "deposit_beta": 0.3, "deposit_rate_floor": 0}
+    ]
+  }
+}

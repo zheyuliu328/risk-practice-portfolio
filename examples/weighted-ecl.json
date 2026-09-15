@@ -1,0 +1,13 @@
+{
+  "model": "weighted-ecl",
+  "inputs": {
+    "scenario_ecls": [
+      100,
+      300
+    ],
+    "weights": [
+      0.75,
+      0.25
+    ]
+  }
+}
