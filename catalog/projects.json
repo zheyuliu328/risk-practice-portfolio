@@ -15,8 +15,11 @@
       "O01"
     ],
     "capabilities": "Monthly OLS candidates, explicit holdout reveal, common-sample forecast review, layered financial reconciliation.",
-    "limits": "Local application; source-time declarations are supplied by callers; no completed independent human adoption study.",
-    "portfolio_layer": "flagship"
+    "limits": "Public browser tool and optional local application; source-time declarations are supplied by callers; independent human first use and repeat use remain unverified.",
+    "portfolio_layer": "flagship",
+    "delivery_status": "public_web",
+    "entry_url": "https://forecast-review-zheyuliu.mystic-pear-2111.chatgpt.site",
+    "status_date": "2026-09-16"
   },
   {
     "repository": "model-risk-lab",
@@ -35,7 +38,10 @@
     ],
     "capabilities": "Causal credit experiments, monthly candidate screening, European FX prices and Greeks.",
     "limits": "Not full IFRS 9, SIMM, market calibration or production validation.",
-    "portfolio_layer": "flagship"
+    "portfolio_layer": "flagship",
+    "delivery_status": "local_tool_and_experiments",
+    "entry_url": "https://github.com/zheyuliu328/model-risk-lab",
+    "status_date": "2026-09-16"
   },
   {
     "repository": "financial-control-tower",
@@ -51,8 +57,11 @@
       "O01"
     ],
     "capabilities": "Browser-local CSV/Excel comparison, confirmed mappings, composite keys, numeric fields, currency/tolerance checks and readable exports.",
-    "limits": "No automatic FX conversion, aggregation or Excel formula calculation; 8 MiB/file and 20,000 potential field checks in published browser version. ZIP includes full selected files.",
-    "portfolio_layer": "specialist"
+    "limits": "No automatic FX conversion, aggregation or Excel formula calculation; 8 MiB/file and 20,000 potential field checks in published browser version. ZIP includes full selected files. Independent human first use and repeat use remain unverified.",
+    "portfolio_layer": "specialist",
+    "delivery_status": "public_web",
+    "entry_url": "https://table-check-zheyuliu.mystic-pear-2111.chatgpt.site",
+    "status_date": "2026-09-16"
   },
   {
     "repository": "risk-var-dashboard",
@@ -69,7 +78,10 @@
     ],
     "capabilities": "One-series normal/historical rolling VaR and Kupiec unconditional coverage with explicit time alignment.",
     "limits": "No ES verification, exception-independence test, portfolio capital model or real investment-performance proof.",
-    "portfolio_layer": "specialist"
+    "portfolio_layer": "specialist",
+    "delivery_status": "local_tool",
+    "entry_url": "https://github.com/zheyuliu328/risk-var-dashboard",
+    "status_date": "2026-09-16"
   },
   {
     "repository": "algorithmic-credit-risk-engine",
@@ -87,7 +99,10 @@
     ],
     "capabilities": "Synthetic classification, scorecard components and metric utilities.",
     "limits": "Supplied-model validate is unimplemented; legacy overrides, PSI tails, CAP/Gini and ECL integration have limitations.",
-    "portfolio_layer": "lab"
+    "portfolio_layer": "lab",
+    "delivery_status": "incomplete_prototype",
+    "entry_url": "https://github.com/zheyuliu328/algorithmic-credit-risk-engine",
+    "status_date": "2026-09-16"
   },
   {
     "repository": "hstech-nlp-quant-factor",
@@ -105,7 +120,10 @@
     ],
     "capabilities": "Sentiment-factor research, IC/Rank-IC, turnover and transaction-cost analysis.",
     "limits": "Historical README reports are not freshly reproduced results; short sample, insignificant result and missing risk neutralisation remain limits.",
-    "portfolio_layer": "specialist"
+    "portfolio_layer": "specialist",
+    "delivery_status": "historical_research",
+    "entry_url": "https://github.com/zheyuliu328/hstech-nlp-quant-factor",
+    "status_date": "2026-09-16"
   },
   {
     "repository": "RMSC6007-GroupProject",
@@ -123,7 +141,10 @@
     ],
     "capabilities": "Coursework on VaR/GARCH/Greeks and factor research.",
     "limits": "Do not claim all work as sole-authored; incomplete reports and absent recognised license require caution before reuse; production-ready claims not independently verified.",
-    "portfolio_layer": "reference"
+    "portfolio_layer": "reference",
+    "delivery_status": "team_reference",
+    "entry_url": "https://github.com/zheyuliu328/RMSC6007-GroupProject",
+    "status_date": "2026-09-16"
   },
   {
     "repository": "signal-foundry",
@@ -141,7 +162,10 @@
     ],
     "capabilities": "Structured public signals, evidence records, candidate matching and review windows.",
     "limits": "Not risk measurement or autonomous fact verification; no authentication or built-in external polling.",
-    "portfolio_layer": "reference"
+    "portfolio_layer": "reference",
+    "delivery_status": "supporting_tool_unverified_this_release",
+    "entry_url": "https://github.com/zheyuliu328/signal-foundry",
+    "status_date": "2026-09-16"
   },
   {
     "repository": "resume-ai-builder",
@@ -158,7 +182,10 @@
     ],
     "capabilities": "Resume variants and document workflows.",
     "limits": "Not a risk model; claimed efficiency gains, API/privacy behaviour and license discrepancy require separate verification.",
-    "portfolio_layer": "reference"
+    "portfolio_layer": "reference",
+    "delivery_status": "supporting_tool_unverified_this_release",
+    "entry_url": "https://github.com/zheyuliu328/resume-ai-builder",
+    "status_date": "2026-09-16"
   },
   {
     "repository": "zheyuliu328",
@@ -173,6 +200,9 @@
     "scenario_ids": [],
     "capabilities": "Routes readers to problems, evidence and learning cases.",
     "limits": "A navigation page, not another risk tool.",
-    "portfolio_layer": "reference"
+    "portfolio_layer": "reference",
+    "delivery_status": "navigation",
+    "entry_url": "https://github.com/zheyuliu328",
+    "status_date": "2026-09-16"
   }
 ]
