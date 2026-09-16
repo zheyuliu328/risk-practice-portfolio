@@ -6,6 +6,24 @@ The worked task uses invented monthly revenue, not credit default data. Candidat
 
 [Read the answer and action memo](REVIEW_MEMO.md) · [Input contract](INPUT_CONTRACT.md) · [Source provenance](inputs/PROVENANCE.json)
 
+## The story: the first answer was too easy
+
+The model owner sees A's available-sample MAE of 1.56 against B's 4.30. You inspect the source rows before accepting the ranking. A omits October–December; B omits April–May. Only seven months can support a like-for-like comparison.
+
+![Different samples favor A; the common seven months favor B.](../../assets/forecast-ranking.png)
+
+On those seven months, A's MAE is 2 and B's is 1. You can support that restricted finding, but not a full-year adoption decision. The next action is to obtain missing-period explanations and timestamped forecasts, then review again. The [worked memo](REVIEW_MEMO.md) shows the handoff.
+
+## Your execution path
+
+| Step | What you do | Visible result |
+| --- | --- | --- |
+| Inspect | Load the input contract and source files | 12 expected months, seven common, five excluded |
+| Decide the comparison scope | Explicitly accept those seven months in a separate request | Common-sample errors become available; exclusions stay visible |
+| Challenge | Declare a conflicting unit | Comparison and residuals are blocked despite acceptance |
+| Recalculate | Independently compute metrics from the raw CSVs | MAE/RMSE/bias checked without calling the Workbench's metric engine |
+| Hand over | Write your reasons and evidence requests | Findings, responsible roles and closure conditions; no automatic approval |
+
 ## Run the case
 
 Use Python 3.10+ in a separate environment. From this portfolio checkout:
