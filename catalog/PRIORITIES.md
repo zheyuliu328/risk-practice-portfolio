@@ -1,6 +1,8 @@
 # Project priorities and attribution
 
-Snapshot: 2026-09-15. Ten existing public non-fork repositories (nine projects and the profile), plus ten learning-reference forks. The new portfolio hub itself is not counted as another model. Metadata and published README inspection establish advertised scope, not fresh execution or user adoption.
+Repository inspection snapshot: 2026-09-15. Ten existing public non-fork repositories (nine projects and the profile), plus ten learning-reference forks. The new portfolio hub itself is not counted as another model. The fixed source commits below retain that inspection date. Metadata and published README inspection establish advertised scope, not fresh execution or user adoption.
+
+Delivery status updated 2026-09-16: [forecast review](https://forecast-review-zheyuliu.mystic-pear-2111.chatgpt.site) and [table check](https://table-check-zheyuliu.mystic-pear-2111.chatgpt.site) have direct browser entry points. [The status page](RELEASE_STATUS.zh-CN.md) distinguishes these releases from local tools, research prototypes and references. This update does not claim that every repository was retested.
 
 P0 = flagship workflow/foundation; P1 = specialist case/tool; P2 = laboratory or reference. These are presentation priorities, not quality scores or evidence of production maturity. Learning priority is separate below.
 
@@ -8,9 +10,9 @@ P0 = flagship workflow/foundation; P1 = specialist case/tool; P2 = laboratory or
 
 | Repository | Layer / priority | Role in the portfolio | Boundary |
 | --- | --- | --- | --- |
-| [forecast-review-workbench](https://github.com/zheyuliu328/forecast-review-workbench) | flagship / P0 | Primary workflow | Local application; source-time declarations are supplied by callers; no completed independent human adoption study. |
+| [forecast-review-workbench](https://github.com/zheyuliu328/forecast-review-workbench) | flagship / P0 | Primary workflow; [open in browser](https://forecast-review-zheyuliu.mystic-pear-2111.chatgpt.site) | Public browser tool and optional local application; source-time declarations are supplied by callers; independent human first use and repeat use remain unverified. |
 | [model-risk-lab](https://github.com/zheyuliu328/model-risk-lab) | flagship / P0 | Numerical foundation; FX also a specialist case | Not full IFRS 9, SIMM, market calibration or production validation. |
-| [financial-control-tower](https://github.com/zheyuliu328/financial-control-tower) | specialist / P1 | Independent data-control tool | No automatic FX conversion, aggregation or Excel formula calculation; 8 MiB/file and 20,000 potential field checks in published browser version. ZIP includes full selected files. |
+| [financial-control-tower](https://github.com/zheyuliu328/financial-control-tower) | specialist / P1 | Independent data-control tool; [open in browser](https://table-check-zheyuliu.mystic-pear-2111.chatgpt.site) | No automatic FX conversion, aggregation or Excel formula calculation; 8 MiB/file and 20,000 potential field checks in published browser version. ZIP includes full selected files. Human first use and repeat use remain unverified. |
 | [risk-var-dashboard](https://github.com/zheyuliu328/risk-var-dashboard) | specialist / P1 | Market-risk case | No ES verification, exception-independence test, portfolio capital model or real investment-performance proof. |
 | [algorithmic-credit-risk-engine](https://github.com/zheyuliu328/algorithmic-credit-risk-engine) | lab / P2 | Credit prototype study | Supplied-model validate is unimplemented; legacy overrides, PSI tails, CAP/Gini and ECL integration have limitations. |
 | [hstech-nlp-quant-factor](https://github.com/zheyuliu328/hstech-nlp-quant-factor) | specialist / P1 | Research case; historical results unreplicated | Historical README reports are not freshly reproduced results; short sample, insignificant result and missing risk neutralisation remain limits. |
@@ -19,7 +21,9 @@ P0 = flagship workflow/foundation; P1 = specialist case/tool; P2 = laboratory or
 | [resume-ai-builder](https://github.com/zheyuliu328/resume-ai-builder) | reference / P2 | Personal utility | Not a risk model; claimed efficiency gains, API/privacy behaviour and license discrepancy require separate verification. |
 | [zheyuliu328](https://github.com/zheyuliu328/zheyuliu328) | reference / P2 | Navigation, not a risk product | A navigation page, not another risk tool. |
 
-## Authorship and inspection record
+## Authorship and inspection record — 2026-09-15
+
+These are the historically inspected default-branch commits, not the build identifiers of the current websites. A new public entry point does not replace the pinned source or evidence used by a reproduced case.
 
 | Repository | Attribution | Inspected default-branch commit |
 | --- | --- | --- |
@@ -56,7 +60,7 @@ These repositories are external learning references, not original work claimed b
 3. Promote a laboratory exercise only after it has a defined user, complete task, independent checks and credible failure/action handling.
 4. Keep references and historical studies available, with unchanged attribution and explicit evidence dates.
 
-[Machine-readable catalog](projects.json) · [Public repository snapshot](public-repositories.json) · [Portfolio](../README.md)
+[Machine-readable catalog](projects.json) · [Public repository snapshot](public-repositories.json) · [Current delivery status](RELEASE_STATUS.zh-CN.md) · [Portfolio](../README.md)
 
 ## Learning priorities are separate from showcase priorities
 

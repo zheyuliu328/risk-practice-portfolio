@@ -4,7 +4,13 @@
 
 The worked task uses invented monthly revenue, not credit default data. Candidate A appears better on its own available months; candidate B is better on their shared months. The task is to discover why and limit the recommendation accordingly. It reviews supplied predictions, not the original training process.
 
-[Read the answer and action memo](REVIEW_MEMO.md) · [Input contract](INPUT_CONTRACT.md) · [Source provenance](inputs/PROVENANCE.json)
+[Open forecast review](https://forecast-review-zheyuliu.mystic-pear-2111.chatgpt.site) · [Read the answer and action memo](REVIEW_MEMO.md) · [Input contract](INPUT_CONTRACT.md) · [Source provenance](inputs/PROVENANCE.json)
+
+## Try it in your browser
+
+Open the [public Workbench](https://forecast-review-zheyuliu.mystic-pear-2111.chatgpt.site) and choose **试用示例** to inspect the invented coverage case, or select your own actual-values and prediction files. Start with the files and columns, then confirm the period range and units. Inspect excluded periods before explicitly accepting the common sample; download the review when finished. No installation or account is needed, and selected files are processed in the browser.
+
+The command-line path below reproduces the original dated case from its fixed source commit. It remains separate from the current browser release; the historical source pin, input provenance and verification record are preserved.
 
 ## The story: the first answer was too easy
 
@@ -24,7 +30,7 @@ On those seven months, A's MAE is 2 and B's is 1. You can support that restricte
 | Recalculate | Independently compute metrics from the raw CSVs | MAE/RMSE/bias checked without calling the Workbench's metric engine |
 | Hand over | Write your reasons and evidence requests | Findings, responsible roles and closure conditions; no automatic approval |
 
-## Run the case
+## Reproduce the pinned case locally
 
 Use Python 3.10+ in a separate environment. From this portfolio checkout:
 
@@ -65,7 +71,7 @@ This automated check replays all three states and uses raw CSVs with separate De
 
 ## Use the actual interface and your own inputs
 
-Run `forecast-review` to open the local application. Select these CSVs through its file pickers and map their different headers. Follow the [Workbench guide](https://github.com/zheyuliu328/forecast-review-workbench/blob/main/docs/QUICKSTART.zh-CN.md) to declare scope, inspect exclusions, accept the common sample, add reasons and export. Real first-time human acceptance remains unverified by this portfolio.
+Open the [browser application](https://forecast-review-zheyuliu.mystic-pear-2111.chatgpt.site), or run `forecast-review` after installing the optional local application. Select these CSVs through its file pickers and map their different headers. Follow the [Workbench guide](https://github.com/zheyuliu328/forecast-review-workbench/blob/main/docs/QUICKSTART.zh-CN.md) to declare scope, inspect exclusions, accept the common sample, add reasons and export. Real first-time human acceptance and repeat use remain unverified by this portfolio.
 
 When moving to another task, supply your own dates, target, unit, horizon and sources. Do not reuse the accepted fixture as a default policy. No employer/client data is needed to practise.
 
