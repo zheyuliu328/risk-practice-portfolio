@@ -8,7 +8,9 @@ from urllib.parse import unquote, urlsplit
 root = Path(__file__).resolve().parents[1]
 snapshot = json.loads((root / "catalog/public-repositories.json").read_text())
 catalog = json.loads((root / "catalog/projects.json").read_text())
-expected = {r["name"] for r in snapshot["repositories"] if not r["isFork"]}
+repositories = snapshot["repositories"] + snapshot.get("subsequent_additions", [])
+assert len({r["name"] for r in repositories}) == len(repositories)
+expected = {r["name"] for r in repositories if not r["isFork"]}
 assert {r["repository"] for r in catalog} == expected
 assert len({r["repository"] for r in catalog}) == len(catalog)
 assert all(r["priority"] in {"P0", "P1", "P2"} for r in catalog)

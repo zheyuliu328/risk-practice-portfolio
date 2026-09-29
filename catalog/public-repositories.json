@@ -203,5 +203,17 @@
       "updatedAt": "2026-06-21T02:15:33Z",
       "url": "https://github.com/zheyuliu328/experimental-openbb-platform-agent"
     }
+  ],
+  "subsequent_additions": [
+    {
+      "defaultBranchRef": {
+        "name": "main"
+      },
+      "description": "Fixed-contract option valuation and transparent risk scenarios; synthetic examples, explicit model limits",
+      "isFork": false,
+      "name": "options-risk-workbench",
+      "url": "https://github.com/zheyuliu328/options-risk-workbench",
+      "retrieved_date": "2026-09-29"
+    }
   ]
 }
