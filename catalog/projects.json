@@ -1,5 +1,23 @@
 [
   {
+    "repository": "options-risk-workbench",
+    "url": "https://github.com/zheyuliu328/options-risk-workbench",
+    "priority": "P1",
+    "portfolio_role": "Options risk tool; main finance-specific CV project",
+    "default_branch": "main",
+    "verified_commit": "3b165c176fab69d7b0a7b9794dcb92c8232c0f83",
+    "evidence_date": "2026-09-29",
+    "evidence_basis": "23 numerical/CLI tests; browser/Python parity, import/export, cancel, invalidation; native deployment success",
+    "authorship": "Independent, AI-assisted; invented examples; related team research separately attributed",
+    "scenario_ids": [],
+    "capabilities": "European/American pricing, fixed-contract spot/vol/time scenarios, signed positions and readable exports.",
+    "limits": "No historical executable returns, calibrated smile, discrete dividends or academic forecasting integration. No external adoption evidence.",
+    "portfolio_layer": "specialist",
+    "delivery_status": "public_web",
+    "entry_url": "https://options-risk-zheyuliu.mystic-pear-2111.chatgpt.site",
+    "status_date": "2026-09-29"
+  },
+  {
     "repository": "forecast-review-workbench",
     "url": "https://github.com/zheyuliu328/forecast-review-workbench",
     "priority": "P0",

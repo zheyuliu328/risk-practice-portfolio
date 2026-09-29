@@ -2,11 +2,11 @@
 
 # Risk tools and worked cases
 
-**Compare forecasts on the same sample. Find differences between tables.**
+**Explain option risk. Compare forecasts on the same sample.**
 
 A portfolio by **Zheyu Liu** · Independent projects using public methods and invented data
 
-[Open forecast review](https://forecast-review-zheyuliu.mystic-pear-2111.chatgpt.site) · [Open table check](https://table-check-zheyuliu.mystic-pear-2111.chatgpt.site) · [全部项目状态](catalog/RELEASE_STATUS.zh-CN.md)
+[Open option risk](https://options-risk-zheyuliu.mystic-pear-2111.chatgpt.site) · [Open forecast review](https://forecast-review-zheyuliu.mystic-pear-2111.chatgpt.site) · [Open table check](https://table-check-zheyuliu.mystic-pear-2111.chatgpt.site) · [全部项目状态](catalog/RELEASE_STATUS.zh-CN.md)
 
 </div>
 
@@ -18,10 +18,11 @@ A portfolio by **Zheyu Liu** · Independent projects using public methods and in
 
 | What you need to do | Open the tool | What to bring home |
 | --- | --- | --- |
+| Revalue fixed option positions under spot, volatility and time shocks | [Options Risk Workbench](https://options-risk-zheyuliu.mystic-pear-2111.chatgpt.site) | Position P&L, approximation residuals and downloadable reports |
 | Compare supplied forecasts against actual values, with missing periods visible | [Forecast Review Workbench](https://forecast-review-zheyuliu.mystic-pear-2111.chatgpt.site) | Common-sample errors, coverage gaps and a downloadable review report |
 | Find differences, missing records and duplicate IDs in two tables | [Table check](https://table-check-zheyuliu.mystic-pear-2111.chatgpt.site) | A difference table and downloadable CSV, HTML or evidence ZIP |
 
-Both open in your browser without installation or an account. Selected files are processed in the browser. Try an invented example if you do not have files ready. The other projects below are local tools, worked cases or research prototypes; [delivery status and remaining gaps](catalog/RELEASE_STATUS.zh-CN.md) are listed separately from showcase priorities. Independent human first use and repeat use remain unverified.
+These tools open in your browser without installation or an account. Selected files are processed in the browser. Try an invented example if you do not have files ready. The other projects below are local tools, worked cases or research prototypes; [delivery status and remaining gaps](catalog/RELEASE_STATUS.zh-CN.md) are listed separately from showcase priorities. Independent human first use and repeat use remain unverified.
 
 ## A better score. A different sample. A different decision.
 

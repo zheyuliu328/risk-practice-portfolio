@@ -11,11 +11,11 @@ Updated 2026-09-29. This is a presentation and development map, not a claim that
 
 ## Implemented foundation — 2026-09-29
 
-[Options Risk Workbench](https://github.com/zheyuliu328/options-risk-workbench) now provides a local Python tool: fixed-contract European BSM/American CRR valuation, signed portfolio sensitivities, spot/volatility/time scenarios and JSON/offline HTML reports. Twenty-three local tests passed, including an American gamma convergence regression. The sample is invented; this does not reproduce or validate historical QQQ strategy results. A browser application and the academic forecasting connection remain unfinished.
+[Options Risk Workbench](https://github.com/zheyuliu328/options-risk-workbench) now provides a [public browser tool](https://options-risk-zheyuliu.mystic-pear-2111.chatgpt.site) and local Python tool: fixed-contract European BSM/American CRR valuation, signed portfolio sensitivities, spot/volatility/time scenarios and JSON/offline HTML reports. Twenty-three local tests passed, including an American gamma convergence regression. The sample is invented; this does not reproduce or validate historical QQQ strategy results. The browser workflow is published; the academic forecasting connection remains unfinished.
 
 ## Remaining integration: volatility and options-risk analysis
 
-The target workflow is to load a documented sample position, inspect volatility and exposures, apply spot/volatility/time shocks, explain position and portfolio P&L, and export assumptions and results. The local valuation/report slice is implemented as described above; the complete browser and research workflow remains planned.
+The target workflow is to load a documented sample position, inspect volatility and exposures, apply spot/volatility/time shocks, explain position and portfolio P&L, and export assumptions and results. The local valuation/report slice is implemented as described above; the browser valuation/report workflow is published; the research connection remains planned.
 
 1. Establish a single academic source version, module attribution and permitted data provenance. Keep third-party option data out of the public distribution unless redistribution rights are established.
 2. Repair evaluation boundaries: forward-label availability, horizon-aware train/test separation, training-only transformations and development-only threshold selection. Preserve a final unseen evaluation period.
