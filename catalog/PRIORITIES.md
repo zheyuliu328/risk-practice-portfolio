@@ -10,6 +10,7 @@ P0 = flagship workflow/foundation; P1 = specialist case/tool; P2 = laboratory or
 
 | Repository | Layer / priority | Role in the portfolio | Boundary |
 | --- | --- | --- | --- |
+| [options-risk-workbench](https://github.com/zheyuliu328/options-risk-workbench) | specialist / P1 | Finance-specific CV project; [open in browser](https://options-risk-zheyuliu.mystic-pear-2111.chatgpt.site) | Fixed-contract hypothetical scenarios; no historical research-performance or production-use claim. |
 | [forecast-review-workbench](https://github.com/zheyuliu328/forecast-review-workbench) | flagship / P0 | Primary workflow; [open in browser](https://forecast-review-zheyuliu.mystic-pear-2111.chatgpt.site) | Public browser tool and optional local application; source-time declarations are supplied by callers; independent human first use and repeat use remain unverified. |
 | [model-risk-lab](https://github.com/zheyuliu328/model-risk-lab) | flagship / P0 | Numerical foundation; FX also a specialist case | Not full IFRS 9, SIMM, market calibration or production validation. |
 | [financial-control-tower](https://github.com/zheyuliu328/financial-control-tower) | specialist / P1 | Independent data-control tool; [open in browser](https://table-check-zheyuliu.mystic-pear-2111.chatgpt.site) | No automatic FX conversion, aggregation or Excel formula calculation; 8 MiB/file and 20,000 potential field checks in published browser version. ZIP includes full selected files. Human first use and repeat use remain unverified. |
@@ -55,7 +56,7 @@ These repositories are external learning references, not original work claimed b
 
 ## Market-risk career presentation update — 2026-09-29
 
-For a market-risk-oriented CV, feature the QQQ team research with individual attribution alongside Forecast Review and its Model Risk Lab foundation. Table Check remains a supporting utility; VaR remains a specialist module. This changes relevance ordering, not software maturity: the QQQ research is not promoted to a validated or deployed product. See the [integration scope and gates](MARKET_RISK_DIRECTION.md). Historical metrics are not endorsed by this update.
+For a market-risk-oriented CV, feature Options Risk Workbench with related, individually attributed QQQ team research alongside Forecast Review and its Model Risk Lab foundation. Table Check remains a supporting utility; VaR remains a specialist module. This changes relevance ordering, not software maturity: the QQQ research is not promoted to a validated or deployed product. See the [integration scope and gates](MARKET_RISK_DIRECTION.md). Historical metrics are not endorsed by this update.
 
 ## Next investment decisions
 
