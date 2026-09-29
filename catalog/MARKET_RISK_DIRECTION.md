@@ -1,26 +1,26 @@
 # Market-risk project direction
 
-Updated 2026-09-29. This is a presentation and development map, not a claim that an integrated options-risk application is already delivered.
+Updated 2026-09-29. Current delivery and evidence boundaries, not a promise of investment performance.
 
-## Existing work worth examining
+## Two CV projects
 
-- **QQQ implied-volatility research**: [MSc team project](https://github.com/zheyuliu328/RMSC6007-GroupProject). The local project documentation attributes the daily pipeline and comparative analysis to Zheyu, and the contract-level pipeline to Ernest. Team modules are not sole-authored work. Historical AUC, Sharpe and strategy returns are excluded from current showcase claims pending consistent-version reproduction and backtest repair. The academic archive is not a deployed trading system.
-- **Forecast Review Workbench + Model Risk Lab**: one application and its numerical foundation, not two unrelated flagship projects. Shows common-sample forecast comparison, time-based candidate evaluation, traceable outputs and independent numerical checks. Monthly regression review is not portfolio market-risk measurement.
-- **VaR backtesting**: a supporting market-risk module. Current scope includes historical/normal VaR and unconditional coverage testing. It does not establish ES validation, exception independence, derivatives full revaluation or regulatory capital compliance.
-- **Table Check**: a useful supporting data-control utility. It remains available, but is not the main finance research project.
+1. [Options Risk Workbench](https://github.com/zheyuliu328/options-risk-workbench): [public browser tool](https://options-risk-zheyuliu.mystic-pear-2111.chatgpt.site) for fixed-contract European BSM/American CRR valuation, signed exposures, spot/volatility/time scenarios and JSON/HTML reports. Twenty-three numerical and workflow tests passed. Browser results matched native Python within 1e-8 relative numeric tolerance. Inputs and examples are independently invented; user inputs are calculated in the browser.
+2. [Forecast Review Workbench](https://github.com/zheyuliu328/forecast-review-workbench), with Model Risk Lab as its numerical foundation: common-sample comparison, temporal candidate evaluation and traceable reviewer outputs. Present these as one application/foundation story, not two independent flagship projects.
 
-## Implemented foundation — 2026-09-29
+## MSc research connection
 
-[Options Risk Workbench](https://github.com/zheyuliu328/options-risk-workbench) now provides a [public browser tool](https://options-risk-zheyuliu.mystic-pear-2111.chatgpt.site) and local Python tool: fixed-contract European BSM/American CRR valuation, signed portfolio sensitivities, spot/volatility/time scenarios and JSON/offline HTML reports. Twenty-three local tests passed, including an American gamma convergence regression. The sample is invented; this does not reproduce or validate historical QQQ strategy results. The browser workflow is published; the academic forecasting connection remains unfinished.
+[QQQ coursework](https://github.com/zheyuliu328/RMSC6007-GroupProject) supplies the financial research question. The original documentation attributes the daily pipeline and comparative analysis to Zheyu and the contract-level pipeline to Ernest; team work is not sole-authored.
 
-## Remaining integration: volatility and options-risk analysis
+A separate local corrected retrospective evaluation was completed on 2026-09-29. It uses horizon-aware label-availability boundaries, training-only preprocessing, a constant baseline and validation-only model selection. Unknown forward labels remain excluded. Structural counterexamples and independent metric/label checks passed. This is not an exact reproduction of the old tuned models or an unseen blind test: the historical evaluation period was already viewed during earlier research. Old AUC, Sharpe and trading-return claims remain excluded.
 
-The target workflow is to load a documented sample position, inspect volatility and exposures, apply spot/volatility/time shocks, explain position and portfolio P&L, and export assumptions and results. The local valuation/report slice is implemented as described above; the browser valuation/report workflow is published; the research connection remains planned.
+The public tool is independently implemented. No team source, raw market data or daily research predictions are distributed here. Data-vintage certification and redistribution rights remain unverified. Forecasts are not automatically connected to scenario valuation.
 
-1. Establish a single academic source version, module attribution and permitted data provenance. Keep third-party option data out of the public distribution unless redistribution rights are established.
-2. Repair evaluation boundaries: forward-label availability, horizon-aware train/test separation, training-only transformations and development-only threshold selection. Preserve a final unseen evaluation period.
-3. Revalue the same option contract at exit: fixed strike, expiry and quantity; explicit time units, transaction costs, overlap policy and portfolio cash accounting. Separate model-priced scenarios from historically executable trading results.
-4. Add independently checked Greeks and full-revaluation spot/volatility/time scenarios. Explain approximation residuals and concentration; add portfolio VaR/ES only with an explicit loss definition and separate verification.
-5. Publish a small browser workflow using independently invented examples. Verify sample import, invalid-input handling, shock results and exported evidence before describing it as available.
+## Supporting projects
 
-The purpose is to connect academic volatility research with practical risk explanation. No investment-performance, bank-desk experience, production-use or regulatory-compliance claim follows from the roadmap.
+- Table Check: supporting data-control utility; no primary CV slot.
+- VaR backtesting: single-return-series historical/normal VaR and unconditional coverage, not portfolio VaR/ES or capital compliance.
+- Credit/NLP experiments and reference forks: learning or research material with explicit attribution and limits, not additional mature products.
+
+## Scope beyond this delivery
+
+A historically executable trading ledger, discrete dividends, market-data adapters, automatic research-to-scenario mapping and independently verified portfolio VaR/ES are future extensions. They are not required to use the current scenario tool and are not completed capabilities. No claim of bank-desk work, production adoption or realised profit follows from this portfolio.
