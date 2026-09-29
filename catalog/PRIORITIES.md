@@ -53,6 +53,10 @@ These repositories are external learning references, not original work claimed b
 - [tong-jincheng-skill](https://github.com/zheyuliu328/tong-jincheng-skill) — fork / reference.
 - [experimental-openbb-platform-agent](https://github.com/zheyuliu328/experimental-openbb-platform-agent) — fork / reference.
 
+## Market-risk career presentation update — 2026-09-29
+
+For a market-risk-oriented CV, feature the QQQ team research with individual attribution alongside Forecast Review and its Model Risk Lab foundation. Table Check remains a supporting utility; VaR remains a specialist module. This changes relevance ordering, not software maturity: the QQQ research is not promoted to a validated or deployed product. See the [integration scope and gates](MARKET_RISK_DIRECTION.md). Historical metrics are not endorsed by this update.
+
 ## Next investment decisions
 
 1. Strengthen the one flagship review task through observed first use and repeat-task evidence.

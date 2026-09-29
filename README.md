@@ -12,6 +12,8 @@ A portfolio by **Zheyu Liu** · Independent projects using public methods and in
 
 ---
 
+[Market-risk research direction and current boundaries](catalog/MARKET_RISK_DIRECTION.md) · Academic research, working tools and planned integration are distinguished explicitly.
+
 ## Choose a task
 
 | What you need to do | Open the tool | What to bring home |
